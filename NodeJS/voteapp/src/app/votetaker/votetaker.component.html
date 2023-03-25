@@ -1,0 +1,7 @@
+<h2>Le meilleur Manga est Dragon Ball Z</h2>
+<h3>Oui :{{agreed}}, Non :{{disagreed}}</h3>
+<app-voter *ngFor="let v of voters"
+[name]="v"
+(click) = "onVoted($event)"
+>
+</app-voter>
