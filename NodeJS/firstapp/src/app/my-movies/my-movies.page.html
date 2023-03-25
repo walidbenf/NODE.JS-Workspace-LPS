@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Mon application de films</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar color="secondary">
+    <ion-title>Mes films préférés</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-card>
+  <ion-card-content>
+    <p>Désolé vous n'avez pas encore séléctionné de films favoris</p>
+    <p>Veuillez séléctionner ci-dessous les films qui vous intéresse</p>
+    <button ion-button icon-left full (click)="findMovie()">
+      <ion-icon name="search"></ion-icon>
+      Liste des meilleurs films 2019
+    </button>
+  </ion-card-content>
+</ion-card>
+</ion-content>

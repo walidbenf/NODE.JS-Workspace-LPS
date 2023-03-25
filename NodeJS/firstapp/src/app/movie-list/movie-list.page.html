@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Liste des meilleurs films</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 size="4" *ngFor="let movie of movies">
+        <img [src]="movie.poster_path" (click)="goToDetail(movie)">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
