@@ -1,3 +1,4 @@
+# Instructions
 Premièrement télécharger node.js sur internet.(npm)
 Vérifier dans cmd :node -v
 npm install @angular/cli
